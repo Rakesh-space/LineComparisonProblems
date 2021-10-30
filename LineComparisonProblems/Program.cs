@@ -6,8 +6,8 @@ namespace LineComparisonProblems
     {
         static void Main(string[] args)
         {
-            UC1CalculateLength lineComparisonUC1 = new UC1CalculateLength();
-            lineComparisonUC1.lineComparisonUC1();
+            UC2EqualityXYcoordinats lineComparisonUC1 = new UC2EqualityXYcoordinats();
+            lineComparisonUC1.lineComparisonUC2();
         }
     }
 }
