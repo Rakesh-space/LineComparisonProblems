@@ -6,7 +6,8 @@ namespace LineComparisonProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\n Welcome to Line Comparison problem...");
+            UC1CalculateLength lineComparisonUC1 = new UC1CalculateLength();
+            lineComparisonUC1.lineComparisonUC1();
         }
     }
 }
