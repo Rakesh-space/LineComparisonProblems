@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace LineComparisonProblems
 {
-    class UC3Compare2Lines
+    class UC4EqualsCompare
     {
-        public void lineComparisonUC3()
+        public void lineComparisonUC4()
         {
+
             double x1, y1, x2, y2;
             double len, length;
             double point1, point2;
@@ -54,17 +55,17 @@ namespace LineComparisonProblems
 
 
 
-            if (length == length2) //comparing both lenght
+            if (length.Equals(length2)) //Equals method here
             {
-                Console.WriteLine("both are equal ");
+                Console.WriteLine("both are equal..");
             }
-            else if (length > length2) //comparing greter than both of varibales
+            else if (length.CompareTo(length2)) //CompareTo method here
             {
-                Console.WriteLine("lines one is greater then two");
+                Console.WriteLine("Both are Compare (equal)..");
             }
             else
             {
-                Console.WriteLine("line 2 is reater than 1");
+                Console.WriteLine("\n Both are not equals..");
             }
         }
     }

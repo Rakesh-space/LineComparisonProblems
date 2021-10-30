@@ -6,8 +6,8 @@ namespace LineComparisonProblems
     {
         static void Main(string[] args)
         {
-            UC3Compare2Lines lineComparisonUC1 = new UC3Compare2Lines();
-            lineComparisonUC1.lineComparisonUC3();
+            UC4EqualsCompare lineComparisonUC1 = new UC4EqualsCompare();
+            lineComparisonUC1.lineComparisonUC4();
         }
     }
 }
